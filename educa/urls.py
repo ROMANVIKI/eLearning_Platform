@@ -31,6 +31,9 @@ urlpatterns = [
 
     #for students
     path('students/', include('students.urls')),
+
+    #  for debug toolbar
+    path('__debug__/', include('debug_toolbar.urls')),
 ]
 
 
