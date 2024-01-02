@@ -34,6 +34,9 @@ urlpatterns = [
 
     #  for debug toolbar
     path('__debug__/', include('debug_toolbar.urls')),
+
+    # adding the api
+    path('api/', include('courses.api.urls', namespace='api')),
 ]
 
 
