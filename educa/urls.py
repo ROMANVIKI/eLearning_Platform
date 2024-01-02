@@ -37,6 +37,9 @@ urlpatterns = [
 
     # adding the api
     path('api/', include('courses.api.urls', namespace='api')),
+
+    #adding the chat url
+    path('chat/', include('chat.urls', namespace='chat')),
 ]
 
 
