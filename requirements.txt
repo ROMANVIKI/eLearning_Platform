@@ -27,7 +27,8 @@ pyasn1-modules==0.3.0
 pycparser==2.21
 pymemcache==4.0.0
 pyOpenSSL==23.3.0
-pyscopg2==66.0.2
+psycopg2-binary==2.9.9
+psycopg2==2.9.9
 pytz==2023.3.post1
 redis==5.0.1
 requests==2.31.0

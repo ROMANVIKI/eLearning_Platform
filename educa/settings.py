@@ -83,7 +83,7 @@ TEMPLATES = [
     },
 ]
 
-# WSGI_APPLICATION = 'educa.wsgi.application'
+WSGI_APPLICATION = 'educa.wsgi.application'
 
 
 # Database
